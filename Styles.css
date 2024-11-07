@@ -1,0 +1,76 @@
+body { 
+	background-color:#C1CFA1; 
+	font-family: "Lucida Console", "Courier New", monospace; 
+	text-align:center; 
+	}
+
+.container{ 
+	background-color: #EDE8DC; 
+	width: 500px; 
+	margin: auto; 
+	text-align: center; 
+	border: 10px solid #708871; 
+	border-radius: 30px; 
+	padding: 50px; 
+	box-shadow: 10px 10px 25px rgba(20, 50, 20, 1.0); 
+	}
+
+#leftlang { 
+	text-align:left; 
+	}
+
+h1 {
+	font-size: 50px; 
+	color: #708871; 
+	background-color: #FFEFEF; 
+	text-align: center; 
+	border: 20px dotted #708871;
+	margin: auto; 
+	padding: 20px;
+   }
+
+.second{ 
+	background-color: #EDE8DC; 
+	width: 500px; 
+	margin: auto; 
+	text-align: center; 
+	border: 10px solid #708871; 
+	border-radius: 30px; 
+	padding: 50px;
+	box-shadow: 10px 10px 25px rgba(20, 50, 20, 1.0); 
+	}
+
+h3 {
+	font-size: 30px;
+}
+
+#pic {
+	width: 30%; border-radius: 50%;	
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #A5B68D;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  background-color: #E7CCCC ;
+}
+
+input[type=text]:focus {
+  	border: 3px solid #555;
+	width: 100%;
+}
+ 	
+input[type=submit]{  
+ 	 margin: 8px 0;
+ 	 box-sizing: border-box;
+ 	 width:100%;
+ 	 padding: 12px 20px;
+ 	 font-size: 200%;
+ 	 font-family: "Lucida Console", "Courier New", monospace;
+ 	 background-color: #A5B68D ;
+ }
